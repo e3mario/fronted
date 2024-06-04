@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0; 
+ }
+
+body{
+    background-color: #c5cae9 ;
+    /* color:var(--color-principal) ; */
+  /* font-family: "Dancing Script", cursive; */
+  font-family: url(font/Dancing_Script.zip);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+:root{
+    --color-principal:#004d40;
+}
+
+.container{
+  /* float:right; */
+}
+
+
+.caja1{
+    
+ height: 200px;
+ width: 200px;
+ border: 2px solid black;
+ background: var(--color-principal);
+ margin: 20px;
+ /* float: left; */
+ text-align: center;
+ color:white;
+ .parrafo1{
+  color: red;
+ }
+ 
+ 
+ 
+ 
+ 
+}
+
+
+.caja2{
+    
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: var(--color-principal);
+  margin-left: 800px;
+  margin-top: -230px;
+  /* float: left; */
+  /* float: right; */
+ }
+
+
+ .caja3{
+    
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: var(--color-principal);
+  margin: 20px;
+  float: right;
+  margin-top: -200px;
+ }
+
+ .caja4{
+
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: var(--color-principal);
+  margin: 20px;
+  margin-top: 200px;
+
+ }
+
+ .caja5{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: var(--color-principal);
+  margin: 20px;
+  /* float:right; */
+  margin-left: 800px;
+  margin-top: -215px;
+  
+
+ }
+
+ .caja6{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: var(--color-principal);
+  margin: 20px;
+  float: right;
+  margin-top: -220px;
+ }
+
+ .textoCabecera{
+  text-align: center;
+  margin-left: -110px;
+ }
+
+ 
+
+ [href]{
+  background-color: yellow;
+ }
